@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Desenvolvedor SENAI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-02 10:13:01 "/>
+        <attribute name="created" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0NTU7MjAyNC0wNC0wMjsiMTA6MDA6MjUgIjszNjMw"/>
+        <attribute name="edited" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0NTU7MjAyNC0wNC0wMjsiMTA6MTM6MDEgIjsxOzM3MzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="resultado" type="Integer" array="False" size=""/>
+            <declare name="Velocidade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Qual &#233; a velocidade m&#233;dia de S&#227;o Paulo para o Rio de Janeiro?&quot;" newline="True"/>
+            <input variable="resultado"/>
+            <assign variable="resultado" expression="Velocidade/3.6"/>
+            <output expression="&quot;A velocidade m&#233;dia em km/h &#233; de&quot; &amp;velocidade &amp; &quot;A velocidade m&#233;dia em m/s &#233;:&quot; &amp;resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
