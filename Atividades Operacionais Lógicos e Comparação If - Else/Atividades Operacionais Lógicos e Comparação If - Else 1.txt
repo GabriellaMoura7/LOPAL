@@ -1,0 +1,23 @@
+import java.util.Scanner; 
+
+public class Main
+{
+    public static void main(String[] args) {
+        
+        Scanner leia = new Scanner (System.in); 
+        
+        int idade = 0;
+        
+        System.out.print("Digite a sua idade:");
+        idade = leia.nextInt(); //entrada de dados
+        
+        if( idade >= 18 ){
+        System.out.print("Você já tem idade para votar!");
+        }
+        
+        else if( idade <18 && idade >15 ){
+        System.out.print("Você pode fazer seu título de eleitor para votar, mas não é obrigatorio!");
+        }
+        else{
+        System.out.print("Você ainda nao tem a idade mínima para votar!");
+        }
