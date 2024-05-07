@@ -1,0 +1,42 @@
+import java.util.Scanner; // Biblioteca Scanner
+
+public class Main {
+  public static void main(String[] args) {
+  {
+	Scanner leia = new Scanner(System.in); 
+	
+	float a = 0;
+	float b = 0;
+	float c = 0;
+	float soma = 0;
+	float media = 0;
+	
+	System.out.println("Qual a sua primeira nota?");
+	a = leia.nextInt();
+	
+	System.out.println("Qual a sua segunda nota? ");
+	b = leia.nextInt();
+	
+	System.out.println("Qual a sua terceira nota? ");
+	c = leia.nextInt();
+	
+	soma = a + b + c;
+	media = soma / 3;
+	
+	if( >=7){
+	    System.out.println("Parabéns! Você foi aprovado :D")
+	}
+    
+    else(<7){
+        System.out.println("Você foi Reprovado :(")
+     }
+    }
+  }
+    
+    
+	
+	
+	
+	
+	
+	
