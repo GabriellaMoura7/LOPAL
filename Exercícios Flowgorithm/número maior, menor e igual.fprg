@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 01:34:09 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjIwOzIwMjQtMDItMDY7IjAxOjE3OjA1ICI7MjI0Mg=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjIwOzIwMjQtMDItMDY7IjAxOjM0OjA5ICI7MTsyMzUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero para mim&quot;" newline="True"/>
+            <input variable="numero"/>
+            <if expression="numero&gt;5.5">
+                <then>
+                    <output expression="&quot;&#201; Maior que 5.5&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="numero&lt;5.5">
+                        <then>
+                            <output expression="&quot;&#201; Menor que 5.5&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="numero!=5.5">
+                                <then>
+                                    <output expression="&quot;&#201; igual a 5.5&quot;" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
