@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 10:47:05 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjIwOzIwMjQtMDItMDY7IjEwOjAxOjI0ICI7MjIzNg=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjIwOzIwMjQtMDItMDY7IjEwOjQ3OjA1ICI7MTsyMzUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="soma" type="Integer" array="False" size=""/>
+            <declare name="n1" type="Integer" array="False" size=""/>
+            <declare name="n2" type="Integer" array="False" size=""/>
+            <declare name="n3" type="Integer" array="False" size=""/>
+            <declare name="n4" type="Integer" array="False" size=""/>
+            <output expression="&quot;Escreva quatro n&#250;meros, um de cada vez, para serem somados.&quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Escreva o pr&#243;ximo n&#250;mero&quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Escreva o pr&#243;ximo n&#250;mero&quot;" newline="True"/>
+            <input variable="n3"/>
+            <output expression="&quot;Escreva o pr&#243;ximo n&#250;mero&quot;" newline="True"/>
+            <input variable="n4"/>
+            <assign variable="soma" expression="n1+n2+n3+n4"/>
+            <output expression="&quot;O resultado da soma &#233; de:&quot; &amp; soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
