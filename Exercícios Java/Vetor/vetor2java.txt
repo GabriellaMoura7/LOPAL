@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Vetor2
+{
+    public static void main(String[] args) {
+        
+        Scanner leia = new Scanner(System.in);
+        
+        int i, n[10];
+        float soma;
+        
+        for(i = 0; i < 10; i ++){
+            String("Qual o valor do índice",i,":");
+            leia(n[1]);
+        }
+        
+        for(i = 0; i < 10; i ++){
+            soma = n[0] + n[1] + n[2] + n[3] + n[4] + n[5] + n[6] + n[7] + n[8] + n[9]
+        }
+        
+        String("A soma dos valores é: ",soma);
