@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Desenvolvedor SENAI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-02 09:11:45 "/>
+        <attribute name="created" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0NTU7MjAyNC0wNC0wMjsiMDg6NTk6MTYgIjszNjUx"/>
+        <attribute name="edited" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0NTU7MjAyNC0wNC0wMjsiMDk6MTE6NDUgIjsxOzM3NTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numA" type="Integer" array="False" size=""/>
+            <declare name="numB" type="Integer" array="False" size=""/>
+            <output expression="&quot;Me d&#234; um n&#250;mero aleat&#243;rio&quot;" newline="True"/>
+            <input variable="numA"/>
+            <output expression="&quot;Me D&#234; outro n&#250;mero aleat&#243;rio&quot;" newline="True"/>
+            <input variable="numB"/>
+            <output expression="&quot;A Ordem dos seus n&#250;meros s&#227;o:&quot; &amp;numA &amp;numB" newline="True"/>
+            <output expression="&quot;Por&#233;m a ordem invertida dos n&#250;meros fica como:&quot; &amp;numB &amp;numA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

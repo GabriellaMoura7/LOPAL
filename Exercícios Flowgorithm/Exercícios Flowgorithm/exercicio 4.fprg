@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Desenvolvedor SENAI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-02 09:42:26 "/>
+        <attribute name="created" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0NTU7MjAyNC0wNC0wMjsiMDk6MTI6MjMgIjszNjM5"/>
+        <attribute name="edited" value="RGVzZW52b2x2ZWRvciBTRU5BSTtERVYxLTE1MzE0NTU7MjAyNC0wNC0wMjsiMDk6NDI6MjYgIjsxOzM3NTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="soma" type="Integer" array="False" size=""/>
+            <declare name="divis&#227;o" type="Integer" array="False" size=""/>
+            <declare name="provaA" type="Integer" array="False" size=""/>
+            <declare name="provaB" type="Integer" array="False" size=""/>
+            <declare name="provaC" type="Integer" array="False" size=""/>
+            <declare name="peso2" type="Integer" array="False" size=""/>
+            <declare name="peso3" type="Integer" array="False" size=""/>
+            <declare name="peso6" type="Integer" array="False" size=""/>
+            <output expression="&quot;Escreva a nota da sua primeira prova:&quot;" newline="True"/>
+            <input variable="provaA"/>
+            <assign variable="peso2" expression="provaA*2"/>
+            <output expression="&quot;Escreva a nota da sua segunda prova:&quot;" newline="True"/>
+            <input variable="provaB"/>
+            <assign variable="peso3" expression="provaB*3"/>
+            <output expression="&quot;Escreva a terceira nota da sua prova:&quot;" newline="True"/>
+            <input variable="provaC"/>
+            <assign variable="peso6" expression="provaC*6"/>
+            <assign variable="soma" expression="peso2+peso3+peso6"/>
+            <assign variable="divis&#227;o" expression="soma/11"/>
+            <output expression="&quot;O Resultado da sua m&#233;dia &#233;:&quot; &amp;divis&#227;o" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
